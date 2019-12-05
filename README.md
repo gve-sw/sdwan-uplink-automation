@@ -3,6 +3,9 @@ Using SDWAN device template APIs we can automate the selection of uplinks on all
 a very stright forward usecase is cost optimisation on uplinks where a customer can link its cost monitoring app to SDWAN using this API and keep switching between Uplinks based on teh pricing
 
 This prototype is a sciprt that can be trgred by another prgram and activate one template on a selcted device.
+![alt text][Prototype]
+
+[Prototype]:./workflow.png "Prototype workflow"
 ## Install:
 
 #### Clone the repo :
