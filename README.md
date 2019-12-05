@@ -17,10 +17,10 @@ $ pip install click
 ```
 
 ## Setup:
-#### retrive template Id and device UUID :
+#### Retrive template Id and device UUID :
 Using the [sdwan.py](./sdwan.py) device template toolkit you can retrive the template id and device uuid, you can discover more about sdwan API here [LINK](https://github.com/CiscoDevNet/Getting-started-with-Cisco-SD-WAN-REST-APIs)
 
-- retrive your device UUID:
+- Retrive your device UUID:
 update 'Nyiregyhaza' with your device name and copy the device ID
 ```
 $ python3 sdwan.py device-list --search 'Nyiregyhaza'
@@ -32,7 +32,7 @@ Retrieving the devices.
 ╘═════════════╧═══════════════╧═══════════════════════════╧═════════════╧═══════════╧═══════════════╧═════════════════════╛
 ```
 
-- retrive your template ID:
+- Retrive your template ID:
 update 'Nyiregyhaza' with your template name and copy the selcted template ID:
 ```
 $ python3 sdwan.py template-list --search 'Nyiregyhaza'
@@ -46,8 +46,8 @@ Retrieving the templates available.
 ╘════════════════════════════╧═════════════════════╧══════════════════════════════════════╧════════════════════╧════════════════════╛
 ```
 
-#### update the script [attach_template_script.py](./attach_template_script.py):
-update the flwoing section with your details:
+#### Update the script [attach_template_script.py](./attach_template_script.py):
+Update the flwoing section with your details:
 ```python
 SDWAN_IP = "your vmanage host here"
 SDWAN_USERNAME = "your user name here"
@@ -56,7 +56,7 @@ SDWAN_PASSWORD = "you pasword here"
 TEMPLATEID = "your template id here"  
 DEVICEID = "your device UUID here"
 ```
-you can test this script using the SDWAN sandbox on devent [LINK](https://developer.cisco.com/sdwan/)
+You can test this script using the SDWAN sandbox on devent [LINK](https://developer.cisco.com/sdwan/)
 
 
 ## Usage:
