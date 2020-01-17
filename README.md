@@ -3,7 +3,7 @@ Using SDWAN device template APIs we can automate the selection of uplinks on all
 a very stright forward usecase is cost optimisation on uplinks where a customer can link its cost monitoring app to SDWAN using this API and keep switching between Uplinks based on teh pricing
 
 This prototype is a sciprt that can be trgred by another prgram and activate one template on a selcted device.
-![alt text][Prototype]
+![Prototype][Prototype]
 
 [Prototype]:./workflow.png "Prototype workflow"
 ## Install:
@@ -74,9 +74,5 @@ $ python3 sdwan.py template-list --search 'Nyiregyhaza'
 Retrieving the templates available.
 ╒════════════════════════════╤═════════════════════╤══════════════════════════════════════╤════════════════════╤════════════════════╕
 │ Template Name              │ Device Type         │ Template ID                          │   Attached devices │   Template version │
-╞════════════════════════════╪═════════════════════╪══════════════════════════════════════╪════════════════════╪════════════════════╡
-│ 2DEMO_Nyiregyhaza_Template │ vedge-C1117-4PLTEEA │ 763d97c8-8f92-48c3-9e7b-868954763105 │                  1 │                 26 │
-├────────────────────────────┼─────────────────────┼──────────────────────────────────────┼────────────────────┼────────────────────┤
-│ 1DEMO_Nyiregyhaza_Template │ vedge-C1117-4PLTEEA │ d3c289a3-a698-422c-a9c9-bf625e1e4251 │                  0 │                 26 │
-╘════════════════════════════╧═════════════════════╧══════════════════════════════════════╧════════════════════╧════════════════════╛
+
 ```
